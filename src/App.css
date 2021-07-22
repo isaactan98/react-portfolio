@@ -1,9 +1,5 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,18 +10,59 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(46, 46, 46);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-nav {
+  height: 56px;
+  padding: 0 16px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  color: #111;
+}
+
+.main {
+  font-size: large;
+}
+
+.logo {
+  height: 45px;
+}
+
+.height100 {
+  min-height: 100vh;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +72,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+:root {
+  --container-padding-width: calc((100vw + 80px) / 21);
+}
+
+/* HOME */
+.home-header {
+  padding-top: 150px;
+  padding-left: var(--container-padding-width);
+  padding-right: var(--container-padding-width);
+}
+
+.home_content {
+  display: flex;
+  justify-content: space-between;
 }
