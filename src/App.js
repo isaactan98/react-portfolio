@@ -17,10 +17,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <header className="App-nav navbar">
-          <Link className="App-link nav-item main" to="/"><img className="logo" src={logo} alt="logo"/></Link>
-          <Link className="App-link nav-item" to="/about">About</Link>
-          <Link className="App-link nav-item" to="/contact">Contact</Link>
+        <header className="App-nav">
+          <Link className="App-link main" to="/"><img className="logo" src={logo} alt="logo"/></Link>
+          <Link className="App-link" to="/about">About</Link>
+          <Link className="App-link" to="/contact">Contact</Link>
         </header>
 
         <Switch>
