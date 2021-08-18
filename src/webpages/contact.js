@@ -12,7 +12,6 @@ const Contact = () => {
     return (
         <header className="App-header">
             <div className="form-group">
-                <h1>Contact Page</h1>
                 <br/>
                 <div>
                     <div className="form-group">

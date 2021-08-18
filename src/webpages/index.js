@@ -25,6 +25,11 @@ const Home = () => {
                         </div>
                 </div>
             </section>
+            <section>
+                <div>
+                    
+                </div>
+            </section>
         </div>
     );
 };
